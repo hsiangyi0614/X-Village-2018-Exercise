@@ -9,6 +9,7 @@ def rate(x):
     else :
         x=0
         print("please reset your transportion")
+        x=input("交通工具 : ")
     def km(y):
         return x*y
     return km
