@@ -23,4 +23,4 @@ def w(a,b):
         return result
 a=int(input("input a number : "))
 b=int(input("input a number : "))
-w(a,b)
+print(w(a,b))
