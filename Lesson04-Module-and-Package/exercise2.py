@@ -13,6 +13,5 @@ def f(y):
 print(f(b))
 
 today = datetime.date.today()
-print("")
-tomorrow = today + datetime.timedelta(days=5)
+tomorrow = today + datetime.timedelta(days=1)
 print("tomorrow : ",tomorrow)
