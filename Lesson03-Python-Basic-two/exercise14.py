@@ -27,7 +27,7 @@ while i == 0:
                 a = '2a'
                 if (randnum[0]==x[0]) and (randnum[1]==x[1]) and (randnum[2]==x[2]) or (randnum[0]==x[0]) and (randnum[1]==x[1]) and (randnum[3]==x[3]) or (randnum[0]==x[0]) and (randnum[2]==x[2]) and (randnum[3]==x[3]) or (randnum[1]==x[1]) and (randnum[2]==x[2]) and (randnum[3]==x[3]) :
                     a = '3a'
-            print (a)       
+        print (a)            
     else :
         print("you win~~~")
         i += 1

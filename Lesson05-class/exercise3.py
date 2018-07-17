@@ -6,8 +6,8 @@ class life:
         for i in range(1,n+1):
             self.map.append(['*']*n)
         if(p==1):
-            self.map[self.center-1][self.center]=0
             self.map[self.center-1][self.center-1]=0
+            self.map[self.center-1][self.center]=0
             self.map[self.center-1][self.center+1]=0
             self.map[self.center][self.center-1]=0
             self.map[self.center+1][self.center]=0

@@ -13,8 +13,8 @@ class life:
             print("")
     def set_pattern(self,n):
         if (n==1):
-            self.map[self.center-1][self.center]=0
             self.map[self.center-1][self.center-1]=0
+            self.map[self.center-1][self.center]=0
             self.map[self.center-1][self.center+1]=0
             self.map[self.center][self.center-1]=0
             self.map[self.center+1][self.center]=0
