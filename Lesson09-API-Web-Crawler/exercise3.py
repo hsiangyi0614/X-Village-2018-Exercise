@@ -1,0 +1,6 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x = np.lin????e(?,?,?)
+y = np.?x?(x)
+plt.???(x,y)
+plt.show()
